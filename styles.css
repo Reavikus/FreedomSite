@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import url("fonts/tangerine/Tangerine-Bold.ttf");
+@import url("fonts/tangerine/Tangerine-Regular.ttf");
+@import url("fonts/acme/Acme-Regular.ttf");
+
+	.tangerine_title {
+		margin-left: auto;
+		margin-right: auto;
+		font-weight: bolder;
+		color: #8c792f;
+		text-align: center;
+		font-family: tangerine;
+		font-size: 50px;
+					}
+
+	.tangerine_sub_title {
+		margin-left: auto;
+		margin-right: auto;
+		font-weight: bolder;
+		color: #8c792f;
+		text-align: center;
+		font-family: tangerine;
+		font-size: 35px;
+					}
+
+    .horizontal_menu {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        font-family: tangerine;
+        font-size: 30px;
+        color: #8c792f;
+		text-align: center;
+        text-decoration-line: none;
+                    }
+
+	.acme_intro {
+		margin-left: auto;
+		margin-right: auto;
+		font-weight: 100;
+		color: #8c792f;
+		text-align: center;
+		font-family: acme;
+		font-size: 18px;
+		line-height: 1.0
+					}
