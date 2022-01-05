@@ -17,30 +17,33 @@
 
 	.tangerine_sub_title {
 		margin-left: auto;
-        margin-right: auto;
+    margin-right: auto;
+		padding-top: 5px;
+		padding-bottom: 5px;
 		font-weight: bolder;
 		color: #8c792f;
 		text-align: center;
 		font-family: tangerine;
-		font-size: 35px;
+		font-size: 45px;
 					}
 
   .horizontal_menu {
-        margin-left: auto;
-        margin-right: auto;
-        border-style: double;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: double;
 		border-width: 5px;
 		Border-color: 8c792f;
-        padding-top: 10px;
+    padding-top: 10px;
 		padding-left: 10px;
 		padding-bottom: 10px;
 		padding-right: 10px;
+		margin-bottom: 40px;
 		font-family: tangerine;
-        font-size: 40px;
+    font-size: 40px;
 		font-weight: bolder;
-        color: #8c792f;
+    color: #8c792f;
 		text-align: center;
-        text-decoration-line: none;
+    text-decoration-line: none;
 		text-decoration-color: 8C792F;
                     }
 
@@ -50,6 +53,7 @@
 				border-style: double;
 				border-width: 5px;
 				border-color: 8c792f;
+				padding: 10px;
 				width: auto;
 				height:auto;
 				font-weight: 200;
@@ -62,8 +66,5 @@
 					}
 
 	.sol_logo {
-				padding-top: 20px;
-				padding-left: 20px;
-				padding-right: 20px;
-				padding-bottom: 10px;
-	}
+				padding-bottom: 15px;
+					}
