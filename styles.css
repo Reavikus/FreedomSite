@@ -4,8 +4,7 @@
 @import url("fonts/acme/Acme-Regular.ttf");
 @import url("fonts/fell_english/IMFellEnglishSC-Regular.ttf");
 
-
-	.tangerine_title {
+.tangerine_title {
 		margin-left: auto;
 		margin-right: auto;
 		font-weight: bolder;
@@ -15,7 +14,7 @@
 		font-size: 90PX;
 					}
 
-	.tangerine_sub_title {
+.tangerine_sub_title {
 		margin-left: auto;
     margin-right: auto;
 		padding-top: 5px;
@@ -27,12 +26,12 @@
 		font-size: 45px;
 					}
 
-  .horizontal_menu {
+.horizontal_menu {
     margin-left: auto;
     margin-right: auto;
     border-style: double;
 		border-width: 5px;
-		Border-color: 8c792f;
+		border-color: 8c792f;
     padding-top: 10px;
 		padding-left: 10px;
 		padding-bottom: 10px;
@@ -45,26 +44,42 @@
 		text-align: center;
     text-decoration-line: none;
 		text-decoration-color: 8C792F;
-                    }
+          }
 
-	.acme_intro {
-				margin-left: auto;
-				margin-right: auto;
-				border-style: double;
-				border-width: 5px;
-				border-color: 8c792f;
-				padding: 10px;
-				width: auto;
-				height:auto;
-				font-weight: 200;
-				font-weight: bold;
-				color: #8c792f;
-				text-align: center;
-				font-family: 'IM Fell English SC', serif;
-				font-size: 25px;
-				line-height: 1.0
+.acme_intro {
+		margin-left: auto;
+		margin-right: auto;
+		border-style: double;
+		border-width: 5px;
+		border-color: 8c792f;
+		padding: 10px;
+		width: auto;
+		height:auto;
+		font-weight: 200;
+		font-weight: bold;
+		color: #8c792f;
+		text-align: center;
+		font-family: 'IM Fell English SC', serif;
+		font-size: 25px;
+		line-height: 1.0;
 					}
 
-	.sol_logo {
-				padding-bottom: 15px;
+.sol_logo {
+		padding-bottom: 15px;
 					}
+
+.page_tops {
+		height: 45px;
+		width: 90px;
+		padding: 5px;
+		margin-left: auto;
+		margin-right: auto;
+		border-style: double;
+		border-width: 5px;
+		border-color: 8c792f;
+		font-family: tangerine;
+	  font-size: 40px;
+		font-weight: bolder;
+	  color: #8c792f;
+		text-align: center;
+					          }
