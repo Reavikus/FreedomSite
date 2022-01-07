@@ -77,7 +77,7 @@
 		border-width: 5px;
 		border-color: 8c792f;
 		font-family: tangerine;
-	  font-size: 40px;
+	  font-size: calc(100% - 40px);
 		font-weight: bolder;
 	  color: #8c792f;
 		text-align: center;
