@@ -68,12 +68,11 @@
 		padding-bottom: 15px;
 					}
 
-.page_tops {
-		height: 45px;
-		width: 90px;
+.page_tops_quotes {
 		padding: 5px;
-		margin-left: auto;
-		margin-right: auto;
+		width: 200px;
+		height: 40px;
+		font-family: 'IM Fell English SC', serif;
 		border-style: double;
 		border-width: 5px;
 		border-color: 8c792f;
@@ -82,4 +81,13 @@
 		font-weight: bolder;
 	  color: #8c792f;
 		text-align: center;
+		margin: auto;
 					          }
+.top_letters {
+		font-size: 25px;
+		font-family: 'IM Fell English SC', serif;
+		color: #8c792f;
+		border: 5px;
+		font-weight: bolder;
+		text-decoration-line: none;
+				}
