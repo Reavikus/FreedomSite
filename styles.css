@@ -26,26 +26,6 @@
 		font-size: 45px;
 					}
 
-.horizontal_menu {
-    margin-left: auto;
-    margin-right: auto;
-    border-style: double;
-		border-width: 5px;
-		border-color: 8c792f;
-    padding-top: 10px;
-		padding-left: 10px;
-		padding-bottom: 10px;
-		padding-right: 10px;
-		margin-bottom: 40px;
-		font-family: tangerine;
-    font-size: 40px;
-		font-weight: bolder;
-    color: #8c792f;
-		text-align: center;
-    text-decoration-line: none;
-		text-decoration-color: 8C792F;
-          }
-
 .acme_intro {
 		margin-left: auto;
 		margin-right: auto;
@@ -77,12 +57,11 @@
 		border-width: 5px;
 		border-color: 8c792f;
 		font-family: tangerine;
-	  font-size: calc(100% - 40px);
 		font-weight: bolder;
-	  color: #8c792f;
+	    color: #8c792f;
 		text-align: center;
 		margin: auto;
-					          }
+				}
 .top_letters {
 		font-size: 25px;
 		font-family: 'IM Fell English SC', serif;
@@ -91,3 +70,49 @@
 		font-weight: bolder;
 		text-decoration-line: none;
 				}
+
+.horizontal_menu {
+    margin-left: auto;
+    margin-right: auto;
+    border-style: double;
+    border-width: 5px;
+	border-color: 8c792f;
+    padding-top: 10px;
+    padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	margin-bottom: 40px;
+	font-family: tangerine;
+    font-size: 40px;
+	font-weight: bolder;
+    color: #8c792f;
+	text-align: center;
+    text-decoration-line: none;
+	text-decoration-color: 8C792F;
+          }
+
+/* This is for the divs on the horizontal menu */
+.flex-container {
+    display:flex;
+                }
+
+.flex-container div {
+    flex: 1 1 auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: double;
+    border-width: 5px;
+	border-color: 8c792f;
+    padding-top: 10px;
+    padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	margin-bottom: 40px;
+	font-family: tangerine;
+    font-size: 40px;
+	font-weight: bolder;
+    color: #8c792f;
+	text-align: center;
+    text-decoration-line: none;
+	text-decoration-color: 8C792F;
+        }
