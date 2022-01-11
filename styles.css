@@ -16,7 +16,7 @@
 
 .tangerine_sub_title {
 		margin-left: auto;
-    margin-right: auto;
+        margin-right: auto;
 		padding-top: 5px;
 		padding-bottom: 5px;
 		font-weight: bolder;
@@ -70,49 +70,38 @@
 		font-weight: bolder;
 		text-decoration-line: none;
 				}
+/* This is for the divs on the horizontal menu */
+.flex-container {
+    display: flex;
+                }
 
 .horizontal_menu {
     margin-left: auto;
     margin-right: auto;
     border-style: double;
     border-width: 5px;
-	border-color: 8c792f;
-    padding-top: 10px;
-    padding-left: 10px;
-	padding-bottom: 10px;
-	padding-right: 10px;
-	margin-bottom: 40px;
+	border-color: #8c792f;
+    padding-top: 5px;
+    padding-left: 5x;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	margin-bottom: 10px;
 	font-family: tangerine;
     font-size: 40px;
 	font-weight: bolder;
-    color: #8c792f;
+    text-decoration-color: 8c792f;
 	text-align: center;
     text-decoration-line: none;
 	text-decoration-color: 8C792F;
           }
 
-/* This is for the divs on the horizontal menu */
-.flex-container {
-    display:flex;
-                }
+.menu_links {
+        font-weight: bolder;
+		color: #8c792f;
+		text-align: center;
+		font-family: tangerine;
+		font-size: 45px;
+        text-decoration-line: none;
+          }
 
-.flex-container div {
-    flex: 1 1 auto;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: double;
-    border-width: 5px;
-	border-color: 8c792f;
-    padding-top: 10px;
-    padding-left: 10px;
-	padding-bottom: 10px;
-	padding-right: 10px;
-	margin-bottom: 40px;
-	font-family: tangerine;
-    font-size: 40px;
-	font-weight: bolder;
-    color: #8c792f;
-	text-align: center;
-    text-decoration-line: none;
-	text-decoration-color: 8C792F;
-        }
+
