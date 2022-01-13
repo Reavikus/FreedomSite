@@ -71,8 +71,12 @@
 		text-decoration-line: none;
 				}
 /* This is for the divs on the horizontal menu */
-.flex-container {
+.container_menu {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
                 }
 
 .horizontal_menu {
@@ -91,8 +95,7 @@
 	font-weight: bolder;
     text-decoration-color: 8c792f;
 	text-align: center;
-    text-decoration-line: none;
-	text-decoration-color: 8C792F;
+    text-decoration-color: 8C792F;
           }
 
 .menu_links {
@@ -100,7 +103,7 @@
 		color: #8c792f;
 		text-align: center;
 		font-family: tangerine;
-		font-size: 45px;
+		font-size: 40px;
         text-decoration-line: none;
           }
 
